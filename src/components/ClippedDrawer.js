@@ -49,7 +49,11 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: theme.spacing(0),
     marginBottom: theme.spacing(0),
   },
-}));
+  divider: {
+    marginTop: theme.spacing(3),
+    marginBottom: theme.spacing(3),
+  },
+}));  
 
 export default function ClippedDrawer() {
   const classes = useStyles();
@@ -87,6 +91,24 @@ export default function ClippedDrawer() {
           </List> */}
         </div>
       </Drawer>
+      <main className={classes.content}>
+        {/* <Toolbar /> */}
+        <Typography variant='h4' align='left'>
+          HW CAD Tools 
+        </Typography>
+        <Typography variant='body1' align='left'>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
+        </Typography>
+        <Divider className={classes.divider}/>
+        <Typography variant='h4' align='left'>
+          Why Use Scripts? 
+        </Typography>
+        <Typography variant='body1' align='left'>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
+        </Typography>
+        
+      </main>
     </div>
   );
 }
