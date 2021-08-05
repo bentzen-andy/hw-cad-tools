@@ -16,10 +16,10 @@ function App() {
       <Navbar />
       <SideNav />
       <Switch>
-        <Route path="/videos">
+        <Route path="/hw-cad-tools/videos">
           <VideosContentBlock />
         </Route>
-        <Route path="/">
+        <Route path="/hw-cad-tools">
           <HomeContentBlock />
         </Route>
       </Switch>
