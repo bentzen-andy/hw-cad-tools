@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <div className={styles.topnav}>
-      <a href="#">home</a>
-      <a href="#">videos</a>
-      <a href="#">downloads</a>
-      <a href="#">about</a>
+      <Link to="/hw-cad-tools">home</Link>
+      <Link to="/hw-cad-tools/videos">videos</Link>
+      <Link to="/hw-cad-tools/downloads">downloads</Link>
+      <Link to="/hw-cad-tools/about">about</Link>
     </div>
   );
 }
