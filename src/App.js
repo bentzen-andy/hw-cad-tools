@@ -20,19 +20,19 @@ function App() {
       <SideNav />
 
       <Switch>
-        <Route path="*/hw-cad-tools/" exact>
+        <Route path="/hw-cad-tools/" exact>
           <HomeContentBlock />
         </Route>
-        <Route path="*/hw-cad-tools/videos" exact>
+        <Route path="/hw-cad-tools/videos" exact>
           <VideosContentBlock />
         </Route>
-        <Route path="*/hw-cad-tools/videos/hw-combine-mesh" exact>
+        <Route path="/hw-cad-tools/videos/hw-combine-mesh" exact>
           <VideoLandingPage url="https://www.youtube.com/embed/NATsPEB2w1I" />
         </Route>
-        <Route path="*/hw-cad-tools/downloads" exact>
+        <Route path="/hw-cad-tools/downloads" exact>
           <DownloadsContentBlock />
         </Route>
-        <Route path="*/hw-cad-tools/about" exact>
+        <Route path="/hw-cad-tools/about" exact>
           <AboutContentBlock />
         </Route>
         <Route path="*">
