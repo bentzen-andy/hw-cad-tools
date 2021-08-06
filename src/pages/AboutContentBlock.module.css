@@ -1,0 +1,13 @@
+.aboutContentBlock {
+  /* padding-left: 165px; */
+  padding-left: 11rem;
+}
+
+h3 {
+  display: block;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
