@@ -1,14 +1,14 @@
 /* The sidebar menu */
 .sideNav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 10rem; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  height: auto; /* Full-height: remove this if you want "auto" height */
+  width: 16rem; /* Set the width of the sidebar */
+  position: absolute; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 0;
   top: 48px; /* Stay at the top */
-  left: 0;
-  background-color: #888; /* Black */
+  background-color: #888;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+  padding-bottom: 10rem;
+  /* margin-top: 10px; */
 }
 
 .sideNav__title {
@@ -21,8 +21,9 @@
 }
 
 /* The navigation menu links */
-.sideNav a {
+.link {
   padding: 6px 8px 6px 16px;
+  margin-right: 1rem;
   text-decoration: none;
   font-size: 20px;
   color: #222;

@@ -31,10 +31,9 @@ export default function VideoLandingPage({ url }) {
           height="470"
           src={url}
           title="YouTube video player"
-          frameborder="0"
-          // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-          allow="fullscreen"
-          allowfullscreen
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+          allowFullScreen
         ></iframe>
         <h3>{getVideoName()}</h3>
       </div>

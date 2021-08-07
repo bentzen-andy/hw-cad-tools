@@ -7,12 +7,30 @@ export default function SideNav() {
     <div className={styles.sideNav}>
       <div className={styles.container}>
         <div className={styles.sideNav__title}>Tutorials</div>
-        <Link to="/hw-cad-tools/videos/hw-combine-mesh">
+        <Link
+          className={styles.link}
+          to="/hw-cad-tools/videos/hw-combine-mesh"
+        >
           Combine Mesh
         </Link>
-        <Link to="#">Cut Mesh</Link>
-        <Link to="#">Zap Mesh</Link>
-        <Link to="#">Bridge Mesh</Link>
+        <Link
+          className={styles.link}
+          to="/hw-cad-tools/videos/hw-cut-mesh"
+        >
+          Cut Mesh
+        </Link>
+        <Link
+          className={styles.link}
+          to="/hw-cad-tools/videos/hw-zap-mesh"
+        >
+          Zap Mesh
+        </Link>
+        <Link
+          className={styles.link}
+          to="/hw-cad-tools/videos/hw-bridge-mesh"
+        >
+          Bridge Mesh
+        </Link>
       </div>
     </div>
   );
