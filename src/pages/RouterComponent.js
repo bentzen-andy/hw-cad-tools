@@ -4,7 +4,10 @@ import VideosContentBlock from "./VideosContentBlock";
 import DownloadsContentBlock from "./DownloadsContentBlock";
 import AboutContentBlock from "./AboutContentBlock";
 import Error404 from "./Error404";
-import VideoLandingPage from "../components/VideoLandingPage";
+import EmbeddedVideo from "../components/EmbeddedVideo";
+import videos from "../data/videos.json";
+
+const titleToURL = (title) => title.toLowerCase().replace(/ /g, "-");
 
 export default function RouterComponent() {
   return (
@@ -16,19 +19,15 @@ export default function RouterComponent() {
         <Route path="/hw-cad-tools/videos" exact>
           <VideosContentBlock />
         </Route>
-
-        <Route path="/hw-cad-tools/videos/hw-combine-mesh" exact>
-          <VideoLandingPage url="https://www.youtube.com/embed/NATsPEB2w1I" />
-        </Route>
-        <Route path="/hw-cad-tools/videos/hw-cut-mesh" exact>
-          <VideoLandingPage url="" />
-        </Route>
-        <Route path="/hw-cad-tools/videos/hw-zap-mesh" exact>
-          <VideoLandingPage url="" />
-        </Route>
-        <Route path="/hw-cad-tools/videos/hw-bridge-mesh" exact>
-          <VideoLandingPage url="" />
-        </Route>
+        {videos.map((video) => (
+          <Route
+            key={video.id}
+            path={`/hw-cad-tools/videos/${titleToURL(video.title)}`}
+            exact
+          >
+            <EmbeddedVideo url={`https://www.youtube.com/embed/${video.id}`} />
+          </Route>
+        ))}
 
         <Route path="/hw-cad-tools/downloads" exact>
           <DownloadsContentBlock />
