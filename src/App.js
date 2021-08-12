@@ -9,14 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="row">
-        <div className="column">
-          <SideNav />
-        </div>
-        <div className="column">
-          <RouterComponent />
-        </div>
-      </div>
+      <RouterComponent />
       <Footer />
     </div>
   );

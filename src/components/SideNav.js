@@ -1,23 +1,26 @@
 import React from "react";
 import styles from "./SideNav.module.css";
 import { Link } from "react-router-dom";
-import videos from "../data/videos.json";
+// import videos from "../data/videos.json";
 
 const titleToURL = (title) => title.toLowerCase().replace(/ /g, "-");
 
-export default function SideNav() {
+export default function SideNav({ sideNavTitle, links }) {
+  console.log(links);
   return (
     <div className={styles.sideNav}>
       <div className={styles.container}>
-        <div className={styles.sideNav__title}>Tutorials</div>
+        <div className={styles.sideNav__title}>{sideNavTitle}</div>
 
-        {videos.map((video) => (
+        {links.map((link) => (
           <Link
             className={styles.link}
-            key={video.id}
-            to={`/hw-cad-tools/videos/${titleToURL(video.title)}`}
+            key={link.id}
+            to={`/hw-cad-tools/${sideNavTitle.toLowerCase()}/${titleToURL(
+              link.title
+            )}`}
           >
-            {video.title}
+            {link.title}
           </Link>
         ))}
       </div>

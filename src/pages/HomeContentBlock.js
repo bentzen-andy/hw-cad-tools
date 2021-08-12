@@ -13,8 +13,8 @@ export default function HomeContentBlock() {
       </p>
       <h1>Tutorial Videos</h1>
       <p>
-        Check out the <Link to="/hw-cad-tools/videos">tutorial videos</Link> for
-        step-by-step instructions for each custom command.
+        Check out the <Link to="/hw-cad-tools/tutorials">tutorial videos</Link>{" "}
+        for step-by-step instructions for each custom command.
       </p>
     </div>
   );

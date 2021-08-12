@@ -1,5 +1,5 @@
 .tutorialContentBlock {
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
   text-align: left;
   /* display: inline; */
   width: 1000px;
@@ -9,6 +9,6 @@
   padding: 1rem;
 }
 
-.tutorialContentBlock div {
+/* .tutorialContentBlock div {
   display: inline;
-}
+} */
