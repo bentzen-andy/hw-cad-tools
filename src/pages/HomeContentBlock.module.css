@@ -3,11 +3,13 @@
   padding-left: 1rem;
 }
 
-.homeContentBlock h3 {
+.homeContentBlock h1 {
   display: block;
   text-align: left;
 }
 
 .homeContentBlock p {
+  display: block;
   text-align: left;
+  margin-bottom: 3rem;
 }

@@ -22,20 +22,20 @@ const getVideoName = () => {
   return videoName;
 };
 
-export default function EmbeddedVideo({ url }) {
+export default function EmbeddedVideo({ url, width, height, showTitle }) {
   return (
     <div className={styles.embeddedVideo}>
       <div className={styles.container}>
         <iframe
-          width="840"
-          height="470"
+          width={width}
+          height={height}
           src={url}
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
           allowFullScreen
         ></iframe>
-        <h3>{getVideoName()}</h3>
+        <h1>{showTitle && getVideoName()}</h1>
       </div>
     </div>
   );

@@ -1,12 +1,8 @@
 .embeddedVideo {
-  padding-left: 16rem;
+  padding-left: 1rem;
   margin-top: 1rem;
 }
 
-.embeddedVideo h3 {
+.embeddedVideo h1 {
   text-align: left;
-}
-
-.embeddedVideo .container {
-  width: 840px;
 }

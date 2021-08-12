@@ -1,8 +1,14 @@
 .videosContentBlock {
   padding-left: 1rem;
   text-align: left;
+  /* display: inline; */
+  width: 1000px;
 }
 
 .videosContentBlock i {
   padding: 1rem;
+}
+
+.videosContentBlock div {
+  display: inline;
 }

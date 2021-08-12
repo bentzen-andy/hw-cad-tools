@@ -25,7 +25,12 @@ export default function RouterComponent() {
             path={`/hw-cad-tools/videos/${titleToURL(video.title)}`}
             exact
           >
-            <EmbeddedVideo url={`https://www.youtube.com/embed/${video.id}`} />
+            <EmbeddedVideo
+              url={`https://www.youtube.com/embed/${video.id}`}
+              width="840"
+              height="470"
+              showTitle={true}
+            />
           </Route>
         ))}
 
