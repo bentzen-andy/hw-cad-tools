@@ -3,11 +3,11 @@
   padding-left: 17rem;
 }
 
-h3 {
+.downloadsContentBlock h3 {
   display: block;
   text-align: left;
 }
 
-p {
+.downloadsContentBlock p {
   text-align: left;
 }

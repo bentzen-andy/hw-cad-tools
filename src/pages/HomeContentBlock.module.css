@@ -3,11 +3,11 @@
   padding-left: 17rem;
 }
 
-h3 {
+.homeContentBlock h3 {
   display: block;
   text-align: left;
 }
 
-p {
+.homeContentBlock p {
   text-align: left;
 }
