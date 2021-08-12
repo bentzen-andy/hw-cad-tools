@@ -2,7 +2,8 @@
 .sideNav {
   margin-bottom: auto;
   width: 16rem; /* Set the width of the sidebar */
-  position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+  /* position: absolute;
+  display: block; */
   z-index: 0;
   top: 48px; /* Stay at the top */
   background-color: #888;

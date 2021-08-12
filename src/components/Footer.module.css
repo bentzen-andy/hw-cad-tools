@@ -1,14 +1,12 @@
 .footer {
-  z-index: 2;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  margin-left: 16rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
   margin-top: auto;
   background-color: #bbb;
 }
 .footer a {
   /* display: inline; */
   padding: 1rem;
-  float: left;
+  /* float: left; */
   text-align: center;
 }
