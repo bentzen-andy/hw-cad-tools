@@ -1,14 +1,14 @@
-.videosContentBlock {
+.tutorialContentBlock {
   padding-left: 1rem;
   text-align: left;
   /* display: inline; */
   width: 1000px;
 }
 
-.videosContentBlock i {
+.tutorialContentBlock i {
   padding: 1rem;
 }
 
-.videosContentBlock div {
+.tutorialContentBlock div {
   display: inline;
 }

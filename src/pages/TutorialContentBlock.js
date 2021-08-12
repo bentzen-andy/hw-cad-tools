@@ -1,6 +1,6 @@
 import React from "react";
 import EmbeddedVideo from "../components/EmbeddedVideo";
-import styles from "./VideosContentBlock.module.css";
+import styles from "./TutorialContentBlock.module.css";
 import videos from "../data/videos.json";
 
 const videoThumbnailList = videos.map((video) => (
@@ -13,8 +13,12 @@ const videoThumbnailList = videos.map((video) => (
     />
   </div>
 ));
-// const videoThumbnailList = videos.map((video) => <div>{video.id}</div>);
 
-export default function VideosContentBlock() {
-  return <div className={styles.videosContentBlock}>{videoThumbnailList}</div>;
+export default function TutorialContentBlock() {
+  return (
+    <div className={styles.tutorialContentBlock}>
+      <h1>Video Tutorials</h1>
+      <p>bla bla bla... </p>
+    </div>
+  );
 }

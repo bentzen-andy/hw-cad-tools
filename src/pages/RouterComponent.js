@@ -1,6 +1,6 @@
 import { Switch, Route } from "react-router-dom";
 import HomeContentBlock from "./HomeContentBlock";
-import VideosContentBlock from "./VideosContentBlock";
+import TutorialContentBlock from "./TutorialContentBlock";
 import DownloadsContentBlock from "./DownloadsContentBlock";
 import AboutContentBlock from "./AboutContentBlock";
 import Error404 from "./Error404";
@@ -16,8 +16,8 @@ export default function RouterComponent() {
         <Route path="/hw-cad-tools/" exact>
           <HomeContentBlock />
         </Route>
-        <Route path="/hw-cad-tools/videos" exact>
-          <VideosContentBlock />
+        <Route path="/hw-cad-tools/tutorials" exact>
+          <TutorialContentBlock />
         </Route>
         {videos.map((video) => (
           <Route
