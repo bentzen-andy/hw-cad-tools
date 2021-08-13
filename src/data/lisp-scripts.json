@@ -1,82 +1,27 @@
 [
   {
-    "id": "NMTVw3wHFAA",
-    "title": "HW 3D Face"
+    "id": "d30698e3a97144703848ffae2f0d354d",
+    "title": "HW 3D Face",
+    "zipDownload": "https://gist.github.com/bentzen-andy/d30698e3a97144703848ffae2f0d354d/archive/8bec2ad7eaee2af8d22641c3872b2baa046211d0.zip"
   },
   {
-    "id": "DlCabR1WMDs",
-    "title": "HW 3D Face Spiderweb"
+    "id": "091c0d76c31f6153a175f9729956d603",
+    "title": "HW 3D Face Spiderweb",
+    "zipDownload": "https://gist.github.com/bentzen-andy/091c0d76c31f6153a175f9729956d603/archive/912a634199b433207123ab71e65a5e65b3122dee.zip"
   },
   {
-    "id": "wrBFOnU1tik",
-    "title": "HW Add Nodes"
+    "id": "56c6d9c957ec173687a1adaf03acde7d",
+    "title": "HW Check Mesh",
+    "zipDownload": "https://gist.github.com/bentzen-andy/56c6d9c957ec173687a1adaf03acde7d/archive/11b77785db43cfb1d3590f4a2e5260f7922958a3.zip"
   },
   {
-    "id": "PCQkiFdAw3o",
-    "title": "HW Bridge Mesh"
+    "id": "fa75afdb8de4e593faf4094d4e4970f7",
+    "title": "HW Combine Mesh",
+    "zipDownload": "https://gist.github.com/bentzen-andy/fa75afdb8de4e593faf4094d4e4970f7/archive/0a74aaefebe38ab8b46255b7b2dc364f572c2ae3.zip"
   },
   {
-    "id": "j637HrxWS6g",
-    "title": "HW Check Mesh"
-  },
-  {
-    "id": "NATsPEB2w1I",
-    "title": "HW Combine Mesh"
-  },
-  {
-    "id": "hSqyj6HPmNs",
-    "title": "HW Cut Mesh"
-  },
-  {
-    "id": "inxbj09hasY",
-    "title": "HW Draw Splines"
-  },
-  {
-    "id": "R-eopwfbxaM",
-    "title": "HW Draw Table Top"
-  },
-  {
-    "id": "cnb3NC2rSNc",
-    "title": "HW Edge"
-  },
-  {
-    "id": "MRfTtyMo3o4",
-    "title": "HW Edgesurf"
-  },
-  {
-    "id": "___",
-    "title": "HW Join"
-  },
-  {
-    "id": "___",
-    "title": "HW Macro Stretch"
-  },
-  {
-    "id": "___",
-    "title": "HW Mesh Recast"
-  },
-  {
-    "id": "___",
-    "title": "HW Seam Builder"
-  },
-  {
-    "id": "___",
-    "title": "HW Stretch"
-  },
-  {
-    "id": "___",
-    "title": "HW Surface to Polygon Mesh | 3-Sided"
-  },
-  {
-    "id": "___",
-    "title": "HW Surface to Polygon Mesh | Disc"
-  },
-  {
-    "id": "___",
-    "title": "HW Surface to Polygon Mesh | Multiple"
-  },
-  {
-    "id": "___",
-    "title": "Hw Swap and Stretch"
+    "id": "9aff9fc2345abfecee509c442a863986",
+    "title": "HW Cut Mesh",
+    "zipDownload": "https://gist.github.com/bentzen-andy/9aff9fc2345abfecee509c442a863986/archive/cfd174248367dc8c8057937bc993b26e38a0f14b.zip"
   }
 ]

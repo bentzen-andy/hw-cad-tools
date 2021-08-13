@@ -35,6 +35,21 @@
   color: #61dafb;
 }
 
+button {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+  font-size: large;
+  background-color: rgb(25, 109, 194);
+  color: antiquewhite;
+  border-color: rgb(25, 109, 194);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(39, 84, 129);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
