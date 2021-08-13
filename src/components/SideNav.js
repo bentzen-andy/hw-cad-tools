@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const titleToURL = (title) => title.toLowerCase().replace(/ /g, "-");
 
 export default function SideNav({ sideNavTitle, links }) {
-  console.log(links);
+  // console.log(links);
   return (
     <div className={styles.sideNav}>
       <div className={styles.container}>

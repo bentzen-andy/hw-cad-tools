@@ -50,9 +50,9 @@ const downloadsRoutesList = downloads.map((download) => (
             <button>Download Code</button>
           </a>
         </div>
-        <div className="row" style={{ width: "900px" }}>
-          <Gist id={download.id}> </Gist>
-        </div>
+        <section className="gist">
+          <Gist id={download.id} iframeHeight="500" />
+        </section>
       </div>
     </div>
   </Route>

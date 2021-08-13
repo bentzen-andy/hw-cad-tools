@@ -18,7 +18,7 @@ class Gist extends React.PureComponent {
   }
 
   _updateIframeContent() {
-    const { id, file } = this.props;
+    const { id, file, iframeHeight } = this.props;
 
     const iframe = this.iframeNode;
 
@@ -30,7 +30,8 @@ class Gist extends React.PureComponent {
     const gistScript = `<script type="text/javascript" src="${gistLink}"></script>`;
     const styles = "<style>*{font-size:12px;}</style>";
     const elementId = file ? `gist-${id}-${file}` : `gist-${id}`;
-    const resizeScript = `onload="parent.document.getElementById('${elementId}').style.height=document.body.scrollHeight + 'px'"`;
+    // const resizeScript = `onload="parent.document.getElementById('${elementId}').style.height=document.body.scrollHeight + 'px'"`;
+    const resizeScript = `onload="parent.document.getElementById('${elementId}').style.height='${iframeHeight}px'"`;
     const iframeHtml = `<html><head><base target="_parent">${styles}</head><body ${resizeScript}>${gistScript}</body></html>`;
 
     doc.open();
