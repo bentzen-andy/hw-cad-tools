@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hw-cad-tools/static/css/main.2d86fccc.chunk.css",
-    "main.js": "/hw-cad-tools/static/js/main.e2d22525.chunk.js",
-    "main.js.map": "/hw-cad-tools/static/js/main.e2d22525.chunk.js.map",
+    "main.css": "/hw-cad-tools/static/css/main.444348d7.chunk.css",
+    "main.js": "/hw-cad-tools/static/js/main.20699be3.chunk.js",
+    "main.js.map": "/hw-cad-tools/static/js/main.20699be3.chunk.js.map",
     "runtime-main.js": "/hw-cad-tools/static/js/runtime-main.633e7a1b.js",
     "runtime-main.js.map": "/hw-cad-tools/static/js/runtime-main.633e7a1b.js.map",
     "static/css/2.bb117084.chunk.css": "/hw-cad-tools/static/css/2.bb117084.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.b0910357.chunk.js.map": "/hw-cad-tools/static/js/3.b0910357.chunk.js.map",
     "index.html": "/hw-cad-tools/index.html",
     "static/css/2.bb117084.chunk.css.map": "/hw-cad-tools/static/css/2.bb117084.chunk.css.map",
-    "static/css/main.2d86fccc.chunk.css.map": "/hw-cad-tools/static/css/main.2d86fccc.chunk.css.map",
+    "static/css/main.444348d7.chunk.css.map": "/hw-cad-tools/static/css/main.444348d7.chunk.css.map",
     "static/js/2.ea5cc8d6.chunk.js.LICENSE.txt": "/hw-cad-tools/static/js/2.ea5cc8d6.chunk.js.LICENSE.txt",
     "static/media/index.css": "/hw-cad-tools/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.633e7a1b.js",
     "static/css/2.bb117084.chunk.css",
     "static/js/2.ea5cc8d6.chunk.js",
-    "static/css/main.2d86fccc.chunk.css",
-    "static/js/main.e2d22525.chunk.js"
+    "static/css/main.444348d7.chunk.css",
+    "static/js/main.20699be3.chunk.js"
   ]
 }
