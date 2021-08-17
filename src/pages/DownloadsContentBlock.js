@@ -11,8 +11,13 @@ export default function DownloadsContentBlock() {
           <SideNav sideNavTitle="Downloads" links={downloads} />
         </div>
         <div className="column">
-          <h1>Downloads</h1>
-          <p>bla bla bla... </p>
+          <h1>Custom Commands</h1>
+          <p>
+            AutoLisp is a scripting language used to write macros and custom
+            commands for AutoCAD. You can view and download any of these custom
+            commands by selecting one from side-bar menu and clicking the
+            Download button.{" "}
+          </p>
         </div>
       </div>
     </div>
