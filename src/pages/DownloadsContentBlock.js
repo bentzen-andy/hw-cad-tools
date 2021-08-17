@@ -15,7 +15,7 @@ export default function DownloadsContentBlock() {
           <p>
             AutoLisp is a scripting language used to write macros and custom
             commands for AutoCAD. You can view and download any of these custom
-            commands by selecting one from side-bar menu and clicking the
+            commands by selecting one from the side-bar menu and clicking the
             Download button.{" "}
           </p>
         </div>

@@ -1,14 +1,10 @@
-.tutorialContentBlock {
-  /* padding-left: 1rem; */
+.tutorialContentBlock h1 {
+  display: block;
   text-align: left;
-  /* display: inline; */
-  width: 1000px;
+  padding-left: 1rem;
 }
 
-.tutorialContentBlock i {
-  padding: 1rem;
+.tutorialContentBlock p {
+  text-align: left;
+  padding-left: 1rem;
 }
-
-/* .tutorialContentBlock div {
-  display: inline;
-} */

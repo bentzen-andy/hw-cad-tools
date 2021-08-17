@@ -3,11 +3,13 @@
   /* padding-left: 1rem; */
 }
 
-.downloadsContentBlock h3 {
+.downloadsContentBlock h1 {
   display: block;
   text-align: left;
+  padding-left: 1rem;
 }
 
 .downloadsContentBlock p {
   text-align: left;
+  padding-left: 1rem;
 }

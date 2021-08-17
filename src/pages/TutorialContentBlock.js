@@ -24,7 +24,7 @@ export default function TutorialContentBlock() {
         <div className="column">
           <h1>Video Tutorials</h1>
           <p>
-            Click on any of the custom commands in the sidebar to get started.{" "}
+            Click on any of the custom commands in the side-bar to get started.{" "}
           </p>
         </div>
       </div>
