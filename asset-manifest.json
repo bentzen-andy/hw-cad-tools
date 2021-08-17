@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/hw-cad-tools/static/css/main.f97abfd3.chunk.css",
-    "main.js": "/hw-cad-tools/static/js/main.02069fac.chunk.js",
-    "main.js.map": "/hw-cad-tools/static/js/main.02069fac.chunk.js.map",
+    "main.css": "/hw-cad-tools/static/css/main.0c839261.chunk.css",
+    "main.js": "/hw-cad-tools/static/js/main.24abb249.chunk.js",
+    "main.js.map": "/hw-cad-tools/static/js/main.24abb249.chunk.js.map",
     "runtime-main.js": "/hw-cad-tools/static/js/runtime-main.633e7a1b.js",
     "runtime-main.js.map": "/hw-cad-tools/static/js/runtime-main.633e7a1b.js.map",
     "static/css/2.bb117084.chunk.css": "/hw-cad-tools/static/css/2.bb117084.chunk.css",
-    "static/js/2.e3ced500.chunk.js": "/hw-cad-tools/static/js/2.e3ced500.chunk.js",
-    "static/js/2.e3ced500.chunk.js.map": "/hw-cad-tools/static/js/2.e3ced500.chunk.js.map",
+    "static/js/2.ea5cc8d6.chunk.js": "/hw-cad-tools/static/js/2.ea5cc8d6.chunk.js",
+    "static/js/2.ea5cc8d6.chunk.js.map": "/hw-cad-tools/static/js/2.ea5cc8d6.chunk.js.map",
     "static/js/3.b0910357.chunk.js": "/hw-cad-tools/static/js/3.b0910357.chunk.js",
     "static/js/3.b0910357.chunk.js.map": "/hw-cad-tools/static/js/3.b0910357.chunk.js.map",
     "index.html": "/hw-cad-tools/index.html",
     "static/css/2.bb117084.chunk.css.map": "/hw-cad-tools/static/css/2.bb117084.chunk.css.map",
-    "static/css/main.f97abfd3.chunk.css.map": "/hw-cad-tools/static/css/main.f97abfd3.chunk.css.map",
-    "static/js/2.e3ced500.chunk.js.LICENSE.txt": "/hw-cad-tools/static/js/2.e3ced500.chunk.js.LICENSE.txt",
+    "static/css/main.0c839261.chunk.css.map": "/hw-cad-tools/static/css/main.0c839261.chunk.css.map",
+    "static/js/2.ea5cc8d6.chunk.js.LICENSE.txt": "/hw-cad-tools/static/js/2.ea5cc8d6.chunk.js.LICENSE.txt",
     "static/media/index.css": "/hw-cad-tools/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.633e7a1b.js",
     "static/css/2.bb117084.chunk.css",
-    "static/js/2.e3ced500.chunk.js",
-    "static/css/main.f97abfd3.chunk.css",
-    "static/js/main.02069fac.chunk.js"
+    "static/js/2.ea5cc8d6.chunk.js",
+    "static/css/main.0c839261.chunk.css",
+    "static/js/main.24abb249.chunk.js"
   ]
 }
