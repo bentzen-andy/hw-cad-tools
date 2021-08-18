@@ -1,0 +1,48 @@
+[
+  {
+    "id": "hwzapmesh",
+    "name": "HW Zap Mesh",
+    "shortcut": "hwzapmesh, za",
+    "inputs": [
+      "<Point>: a vertex of the mesh facet to be removed.",
+      "<Point>: a vertex adjacent to the first picked point. "
+    ],
+    "output": "<Polygon Mesh>: a mesh with the selected facet removed. ",
+    "useCases": [
+      "Sometimes a polygon mesh can afford to lose a few facets without negatively affecting the overall look of the CAD symbol. Reducing a mesh's facet count in this way can reduce the overall file size of the symbol. "
+    ]
+  },
+  {
+    "id": "hwcombinemesh",
+    "name": "HW Combine Mesh",
+    "shortcut": "hwcombinemesh, c",
+    "inputs": [
+      "<Polygon Mesh>: any.",
+      "<Polygon Mesh>: must be adjacent to the first one."
+    ],
+    "output": "<Polygon Mesh>: a combination of the original two input meshes.",
+    "useCases": [
+      "Some products look more true-to-life if they are built with a single polygon mesh rather than multiple separate ones. For example, trim around a rectangular table is often best represented with a single mesh rather than being split into a separate mesh for each of the four sides. "
+    ]
+  },
+  {
+    "id": "hwbridgemesh",
+    "name": "HW Bridge Mesh",
+    "shortcut": "hwbridgemesh, bb, bb2, bb4, bb8, bb16",
+    "inputs": [
+      "<Polygon Mesh>: first mesh.",
+      "<Point>: first vertex of the mesh #1.",
+      "<Point>: second vertex of the mesh #1 (must be adjacent to the first vertex).",
+      "<Point>: third vertex of the mesh #1 (must be adjacent to the second vertex, but not adjacent to the second so as to make an L-shape with the three picks).",
+      "<Polygon Mesh>: second mesh.",
+      "<Point>: first vertex of the mesh #2.",
+      "<Point>: second vertex of the mesh #2 (must be adjacent to the first vertex).",
+      "<Point>: third vertex of the mesh #2 (must be adjacent to the second vertex, but not adjacent to the second so as to make an L-shape with the three picks)."
+    ],
+    "output": "<Polygon Mesh>: the combination of the two input meshes with a new edge joining the first mesh to the second.",
+    "useCases": [
+      "Creating table tops: Bridge mesh lets you quickly create a flat table top by joining the first half of a table edge to its other half.",
+      "Creating meshes that span long distances."
+    ]
+  }
+]

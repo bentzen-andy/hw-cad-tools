@@ -2,7 +2,7 @@ import { Switch, Route } from "react-router-dom";
 import HomeContentBlock from "./HomeContentBlock";
 import TutorialContentBlock from "./TutorialContentBlock";
 import DownloadsContentBlock from "./DownloadsContentBlock";
-import AboutContentBlock from "./AboutContentBlock";
+import DocumentationContentBlock from "./DocumentationContentBlock";
 import Error404 from "./Error404";
 import EmbeddedVideo from "../components/EmbeddedVideo";
 import videos from "../data/videos.json";
@@ -73,8 +73,8 @@ export default function RouterComponent() {
         <Route path="/hw-cad-tools/downloads" exact>
           <DownloadsContentBlock />
         </Route>
-        <Route path="/hw-cad-tools/about" exact>
-          <AboutContentBlock />
+        <Route path="/hw-cad-tools/docs" exact>
+          <DocumentationContentBlock />
         </Route>
         <Route path="*">
           <Error404 />

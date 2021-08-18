@@ -10,7 +10,7 @@ export default function Navbar() {
       </Link>
       <Link to="/hw-cad-tools/tutorials">tutorials</Link>
       <Link to="/hw-cad-tools/downloads">downloads</Link>
-      {/* <Link to="/hw-cad-tools/about">about</Link> */}
+      <Link to="/hw-cad-tools/docs">docs</Link>
     </div>
   );
 }

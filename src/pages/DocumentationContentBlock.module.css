@@ -1,0 +1,67 @@
+.documentationContentBlock {
+  /* padding-left: 165px; */
+  padding: 0 1rem;
+}
+
+.documentationContentBlock h1 {
+  /* display: block; */
+  text-align: left;
+}
+
+.documentationContentBlock p {
+  text-align: left;
+}
+
+.documentationContentBlock table {
+  border-collapse: collapse;
+  text-align: left;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.documentationContentBlock th {
+  background-color: #333;
+  color: rgb(226, 224, 224);
+  font-size: 24px;
+  padding: 4rem 8px;
+}
+
+table tr:last-child th:first-child {
+  border-top-left-radius: 10px;
+}
+
+table tr:last-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.documentationContentBlock tr {
+  padding: 4px 8px;
+}
+
+.odd {
+  background-color: rgb(226, 224, 224);
+}
+
+.even {
+  background-color: rgb(151, 148, 148);
+}
+
+.commandName {
+  width: 10%;
+}
+
+.shortcut {
+  width: 10%;
+}
+
+.input {
+  width: 40%;
+}
+
+.output {
+  width: 20%;
+}
+
+.useCase {
+  width: 20%;
+}
