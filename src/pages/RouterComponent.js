@@ -9,8 +9,88 @@ import videos from "../data/videos.json";
 import downloads from "../data/lisp-scripts.json";
 import SideNav from "../components/SideNav";
 import Gist from "../components/Gist";
+import styles from "./RouterComponent.module.css";
+import { Link } from "react-router-dom";
 
 const titleToURL = (title) => title.toLowerCase().replace(/ /g, "-");
+
+const loadingInstructions = (video) => {
+  if (!video.shortcut) return null;
+  return (
+    <div className={styles.loadingInstructions}>
+      {video.summary && video.summary}
+      <h3>Loading Instructions</h3>
+      <p>
+        If you'd like to use this command, add the following code to your{" "}
+        <code>_hwloadall.lsp</code> file (excluding the <code>...</code>):
+      </p>
+      <div className={styles.codeSnippet}>
+        <div>
+          <code>;; HW Commands</code>
+        </div>
+        <div>
+          <code>...</code>
+        </div>
+        <div>
+          <code>(load C:/kenf/lisp/{video.shortcut[0]}.lsp)</code>
+        </div>
+        <div>
+          <code>...</code>
+        </div>
+      </div>
+      <p>
+        Or see the{" "}
+        <Link to="/hw-cad-tools/tutorials/hw-load-all">instructions</Link> for
+        setting up your <code>_hwloadall.lsp</code> file.
+      </p>
+    </div>
+  );
+};
+
+const shortcutInstructions = (video) => {
+  if (video.shortcut[1] === "") return null;
+  return (
+    <div className={styles.commandShortcut}>
+      <h3>Command Shortcut:</h3>
+      <p>
+        If you'd like to set a shortcut for for command, add the following code
+        to your <code>_hwloadall.lsp</code> file (following the load statement):
+      </p>
+      <div className={styles.codeSnippet}>
+        <div>
+          <code>...</code>
+        </div>
+        <div>
+          <div>
+            <code>(load C:/kenf/lisp/{video.shortcut[0]}.lsp)</code>
+          </div>
+          <code>
+            (defun c:{video.shortcut[1]}( / ) c:{video.shortcut[0]})
+          </code>
+        </div>
+        <div>
+          <code>...</code>
+        </div>
+      </div>
+      <p>
+        OR: You can customize your keyboard shortcut but substituting{" "}
+        <code>xyz</code> in place of the <code>{video.shortcut[1]}</code>, where{" "}
+        <code>xyz</code> is your shortcut name.
+      </p>
+      <div className={styles.codeSnippet}>
+        <div>
+          <code>...</code>
+        </div>
+        <div>
+          <code>(defun c:xyz( / ) c:{video.shortcut[0]})</code>
+        </div>
+        <div>
+          <code>...</code>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const tutorialRoutesList = videos.map((video) => (
   <Route
@@ -29,6 +109,8 @@ const tutorialRoutesList = videos.map((video) => (
           height="470"
           showTitle={true}
         />
+        {loadingInstructions(video)}
+        {shortcutInstructions(video)}
       </div>
     </div>
   </Route>

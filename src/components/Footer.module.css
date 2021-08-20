@@ -5,8 +5,16 @@
   background-color: #bbb;
 }
 .footer a {
-  /* display: inline; */
   padding: 1rem;
-  /* float: left; */
   text-align: center;
+  color: rgb(25, 109, 194);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.loadingInstructions a,
+.commandShortcut a {
+  color: rgb(25, 109, 194);
+  text-decoration: none;
+  font-weight: bold;
 }
