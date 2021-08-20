@@ -16,18 +16,16 @@
   word-wrap: break-word;
 }
 
-.loadingInstructions,
 .commandShortcut {
   text-align: left;
   padding-left: 1rem;
 }
-.loadingInstructions code,
+
 .commandShortcut code {
   background: #f4f4f4;
   color: #666;
 }
 
-.loadingInstructions a,
 .commandShortcut a {
   color: rgb(25, 109, 194);
   text-decoration: none;

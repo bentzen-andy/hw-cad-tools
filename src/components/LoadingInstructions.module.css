@@ -1,0 +1,33 @@
+.codeSnippet {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid #f36d33;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  /* margin-left: 1rem; */
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
+
+.loadingInstructions {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.loadingInstructions code {
+  background: #f4f4f4;
+  color: #666;
+}
+
+.loadingInstructions a {
+  color: rgb(25, 109, 194);
+  text-decoration: none;
+  font-weight: bold;
+}

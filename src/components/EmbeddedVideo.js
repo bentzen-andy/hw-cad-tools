@@ -16,9 +16,10 @@ const getVideoName = () => {
     .split("/")
     .pop()
     .split("-")
-    .slice(1)
+    // .slice(1)
     .join(" ");
   videoName = titleCase(videoName).replace(/3d/g, "3D");
+  videoName = videoName.replace(/Hw/g, "HW");
   return videoName;
 };
 

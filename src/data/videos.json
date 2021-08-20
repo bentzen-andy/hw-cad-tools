@@ -3,114 +3,160 @@
     "id": "NMTVw3wHFAA",
     "title": "HW 3D Face",
     "summary": "Draws a flat grouping of four-sided 3D faces by clicking perimeter points",
-    "shortcut": ["hw3dface", "3f"]
+    "commandName": "hw3dface",
+    "lspFileNames": ["hw3dface.lsp"],
+    "shortcut": "3f"
   },
   {
     "id": "DlCabR1WMDs",
     "title": "HW 3D Face Spiderweb",
     "summary": "Draws a flat grouping of three-sided 3D faces by clicking perimeter points",
-    "shortcut": ["hw3dface_spiderweb", "sd"]
+    "commandName": "hw3dface_spiderweb",
+    "lspFileNames": ["hw3dface_spiderweb.lsp"],
+    "shortcut": "sd"
   },
   {
     "id": "wrBFOnU1tik",
     "title": "HW Add Nodes",
     "summary": "(For use only in matrix files) Adds middle and exterior nodes on every CAD symbol in a matrix file.",
-    "shortcut": ["hwaddnodes", ""]
+    "commandName": "hwaddnodes",
+    "lspFileNames": ["hwaddnodes.lsp"],
+    "shortcut": ""
   },
   {
     "id": "PCQkiFdAw3o",
     "title": "HW Bridge Mesh",
     "summary": "Connects two non-adjacent polygon meshes.",
-    "shortcut": ["hwbridgemesh", "bb"]
+    "commandName": "hwbridgemesh",
+    "lspFileNames": ["hwbridgemesh,lsp"],
+    "shortcut": "bb"
   },
   {
     "id": "j637HrxWS6g",
     "title": "HW Check Mesh",
     "summary": "Quality-checks the normal facing of 3D faces and polygon meshes.",
-    "shortcut": ["hwcheckmesh", "ch"]
+    "commandName": "hwcheckmesh",
+    "lspFileNames": ["hwcheckmesh.lsp"],
+    "shortcut": "ch"
   },
   {
     "id": "NATsPEB2w1I",
     "title": "HW Combine Mesh",
     "summary": "Combines two adjacent polygon meshes together into one.",
-    "shortcut": ["hwcombinemesh", "c"]
+    "commandName": "hwcombinemesh",
+    "lspFileNames": ["hwcombinemesh.lsp"],
+    "shortcut": "c"
   },
   {
     "id": "hSqyj6HPmNs",
     "title": "HW Cut Mesh",
     "summary": "Separates one polygon mesh into two (along an edge).",
-    "shortcut": ["hwcutmesh", "xx"]
+    "commandName": "hwcutmesh",
+    "lspFileNames": ["hwcutmesh.lsp"],
+    "shortcut": "xx"
   },
   {
     "id": "inxbj09hasY",
     "title": "HW Draw Splines",
     "summary": "Maps splines onto a collection of round or rectangular surface entities (like a lounge chair seat or sofa cushion).",
-    "shortcut": ["_____", ""]
+    "commandName": "hwdrawsplines",
+    "lspFileNames": ["hwsurfacttopolygonmesh_disc.lsp"],
+    "shortcut": ""
   },
   {
     "id": "R-eopwfbxaM",
     "title": "HW Draw Table Top",
     "summary": "Draws a table top (3D faces) onto an existing table edge.",
-    "shortcut": ["hwdrawtabletop", ""]
+    "commandName": "hwdrawtabletop",
+    "lspFileNames": ["hwdrawtabletop.lsp"],
+    "shortcut": ""
   },
   {
     "id": "cnb3NC2rSNc",
     "title": "HW Edge",
     "summary": "Hides edges on 3D faces. Specifically, this command quality-checks all targeted 3D faces by hiding the interior edges of adjacent 3D faces (only affects groupings of 3D faces that comprise flat surfaces).",
-    "shortcut": ["hwedge", ""]
+    "commandName": "hwedge",
+    "lspFileNames": ["hwedge.lsp"],
+    "shortcut": ""
   },
   {
     "id": "MRfTtyMo3o4",
     "title": "HW Edgesurf",
     "summary": "Creates a polygon mesh based on four input splines (works similarly to AutoCAD's native EDGESURF command, only this command allows for a small 'fuzz-factor' between splines. And this command allow you to edit the surf. tab counts immediately after placing it).",
-    "shortcut": ["hwedgesurf", "es"]
+    "commandName": "hwedgesurf",
+    "lspFileNames": ["es.lsp"],
+    "shortcut": "es"
   },
   {
     "id": "Bk6Z99F4H_k",
     "title": "HW Join",
     "summary": "Creates a spline from two or more adjacent splines (works similarly to AutoCAD's native JOIN command, only this command allows for a small 'fuzz-factor' between splines. ",
-    "shortcut": ["hwjoin", "hwj"]
+    "commandName": "hwjoin",
+    "lspFileNames": ["hwjoin.lsp"],
+    "shortcut": "hwj"
   },
   {
     "id": "jPKWWpC1UE8",
     "title": "HW Macro Stretch",
     "summary": "(For use only in matrix files) Simultaneously applies a stretch to many symbols in a matrix file. Useful for instance, when you need to change the depth of many wardrobes (or similar item) in a matrix.",
-    "shortcut": ["____", ""]
+    "commandName": "hwmacro_stretch",
+    "lspFileNames": ["hwmacro_stretch.lsp"],
+    "shortcut": ""
   },
   {
     "id": "3OrrQJsm4xk",
     "title": "HW Mesh Recast",
     "summary": "Changes the surf. tab count of a polygon mesh. Allows you to smooth rough transitions. This command can be used in with HW Cut Mesh and HW Bridge Mesh to mold your meshes into rounded, organic-shaped designs. Warning: this command fundamentally changes the target mesh in a way that is difficult to undo.",
-    "shortcut": ["hwmeshrecast", "me"]
+    "commandName": "hwmeshrecast",
+    "lspFileNames": ["hwmeshrecast.lsp"],
+    "shortcut": "me"
   },
   {
     "id": "xuU_w495pI8",
     "title": "HW Seam Builder",
     "summary": "Changes the shape of the target mesh to show seam lines. This command can be used in conjunction with HW Define New Seam to create a custom seam shape.",
-    "shortcut": ["____", ""]
+    "commandName": "hwseambuilder_main",
+    "lspFileNames": ["hwseambuilder_main", "hwseambuilder_defineseam"],
+    "shortcut": "se"
   },
   {
     "id": "x7ICBFMp9Qk",
     "title": "HW Surface to Polygon Mesh: 3-Sided",
     "summary": "Creates a polygon mesh from a three-sided surface entity. ",
-    "shortcut": ["____", ""]
+    "commandName": "hwsurfacetopolygonmesh_3_sided",
+    "lspFileNames": ["hwsurfacetopolygonmesh_3_sided.lsp"],
+    "shortcut": ""
   },
   {
     "id": "aByISB3KY88",
     "title": "HW Surface to Polygon Mesh: Disc",
     "summary": "Creates a polygon mesh from a collection of ring-shaped, or disc-shaped surface entities. ",
-    "shortcut": ["____", ""]
+    "commandName": "hwsurfacetopolygonmesh_disc",
+    "lspFileNames": ["hwsurfacetopolygonmesh_disc.lsp"],
+    "shortcut": ""
   },
   {
     "id": "zu_qFTEtWFY",
     "title": "HW Surface to Polygon Mesh: Multiple",
     "summary": "Attempts to create polygon meshes from simple surface entities.",
-    "shortcut": ["____", ""]
+    "commandName": "hwsurfacetopolygonmesh_multiple",
+    "lspFileNames": ["hwsurfacetopolygonmesh_multiple.lsp"],
+    "shortcut": ""
   },
   {
     "id": "oknToZKv2Zc",
     "title": "HW Swap and Stretch",
-    "summary": "(For use only in matrix files) Substitutes a selected collection of polygon meshes / 3D faces for another, and subsequently stretches the size. This command was originally designed to quickly change our 'proud-back' wardrobes into 'inset-back'. NOTE: this command can be modified for other applications. So please make a request if you run into a situation where you have a large matrix and you need to a make a small 'swap' modification on all items in the matrix. Many times these issues can be solved with a script faster (and cheaper) than outsourcing the work to another company. ",
-    "shortcut": ["____", ""]
+    "summary": "(For use only in matrix files) Substitutes a selected collection of polygon meshes / 3D faces for another, and subsequently stretches the size. This command was originally designed to quickly change our 'proud-back' wardrobes into 'inset-back'. Note: this command can be modified for other applications. So please make a request if you run into a situation where you have a large matrix and you need to make a small 'swap' modification on all items in the matrix. Many times these issues can be solved with a script faster (and cheaper) than outsourcing the work to another company. ",
+    "commandName": "hwswapandstretch",
+    "lspFileNames": ["hwswapandstretch.lsp"],
+    "shortcut": ""
+  },
+  {
+    "id": "R5uVKHVJ9rE",
+    "title": "Setting up your _hwloadall File",
+    "summary": "The load file sets specified scripts to load into AutoCAD immediately on start up. This gives you access to these commands via command-line every time you use AutoCAD.",
+    "commandName": "",
+    "lspFileNames": [""],
+    "shortcut": ""
   }
 ]
