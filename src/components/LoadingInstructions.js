@@ -3,7 +3,7 @@ import styles from "./LoadingInstructions.module.css";
 import { Link } from "react-router-dom";
 
 export default function LoadingInstructions({ video }) {
-  if (video.commandName === "") return null;
+  if (video.lspFileNames[0] === "") return null;
   return (
     <div className={styles.loadingInstructions}>
       <h3>Loading Instructions</h3>
@@ -20,7 +20,7 @@ export default function LoadingInstructions({ video }) {
         </div>
         {video.lspFileNames.map((fileName) => (
           <div key={fileName}>
-            <code>(load C:/kenf/lisp/{fileName}.lsp)</code>
+            <code>(load C:/kenf/lisp/{fileName})</code>
           </div>
         ))}
 

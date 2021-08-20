@@ -6,9 +6,84 @@ const titleCase = (str) => {
   return str
     .split(" ")
     .map(function (word) {
-      return word.replace(word[0], word[0].toUpperCase());
+      return word.length <= 2 || isPreposition(word)
+        ? word
+        : word.replace(word[0], word[0].toUpperCase());
     })
     .join(" ");
+};
+
+const isPreposition = (word) => {
+  const prepositions = [
+    "aboard",
+    "about",
+    "above",
+    "across",
+    "after",
+    "against",
+    "along",
+    "amid",
+    "among",
+    "around",
+    "as",
+    "at",
+    "before",
+    "behind",
+    "below",
+    "beneath",
+    "beside",
+    "between",
+    "beyond",
+    "but",
+    "by",
+    "concerning",
+    "considering",
+    "despite",
+    "down",
+    "during",
+    "except",
+    "following",
+    "for",
+    "from",
+    "in",
+    "inside",
+    "into",
+    "like",
+    "minus",
+    "near",
+    "next",
+    "of",
+    "off",
+    "on",
+    "onto",
+    "opposite",
+    "out",
+    "outside",
+    "over",
+    "past",
+    "per",
+    "plus",
+    "regarding",
+    "round",
+    "since",
+    "than",
+    "through",
+    "till",
+    "to",
+    "toward",
+    "under",
+    "underneath",
+    "unlike",
+    "until",
+    "up",
+    "upon",
+    "versus",
+    "via",
+    "with",
+    "within",
+    "without",
+  ];
+  return prepositions.includes(word);
 };
 
 const getVideoName = () => {
@@ -19,7 +94,7 @@ const getVideoName = () => {
     // .slice(1)
     .join(" ");
   videoName = titleCase(videoName).replace(/3d/g, "3D");
-  videoName = videoName.replace(/Hw/g, "HW");
+  videoName = videoName.replace(/hw/g, "HW");
   return videoName;
 };
 

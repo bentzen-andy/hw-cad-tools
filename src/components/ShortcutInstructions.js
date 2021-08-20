@@ -17,7 +17,7 @@ export default function ShortcutInstructions({ video }) {
         <div>
           {video.lspFileNames.map((fileName) => (
             <div key={fileName}>
-              <code>(load C:/kenf/lisp/{fileName}.lsp)</code>
+              <code>(load C:/kenf/lisp/{fileName})</code>
             </div>
           ))}{" "}
           <code>

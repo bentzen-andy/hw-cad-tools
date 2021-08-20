@@ -178,5 +178,35 @@
     "lspFileNames": [""],
     "category": "Getting Started",
     "shortcut": ""
+  },
+  {
+    "id": "hpVAudDeVo0",
+    "title": "How to Smooth out a Curve",
+    "summary": "Example uses HW Cut Mesh, HW Combine Mesh, HW Half Mesh, HW Bridge Mesh, and HW Mesh Recast to smooth out a rough bump in a seat cushion.",
+    "commandName": "",
+    "lspFileNames": [
+      "hwcutmesh",
+      "hwcombinemesh",
+      "hwhalfmesh",
+      "hwbridgemesh",
+      "hwmeshrecast"
+    ],
+    "category": "Drafting Tutorials",
+    "shortcut": ""
+  },
+  {
+    "id": "CAY2wXEumMo",
+    "title": "How to Round out a Corner on a Sofa Cushion",
+    "summary": "Example uses HW Cut Mesh, HW Combine Mesh, HW Half Mesh, HW Bridge Mesh, and HW Mesh Recast to create the corner on a sofa cushion.",
+    "commandName": "",
+    "lspFileNames": [
+      "hwcutmesh",
+      "hwcombinemesh",
+      "hwhalfmesh",
+      "hwbridgemesh",
+      "hwmeshrecast"
+    ],
+    "category": "Drafting Tutorials",
+    "shortcut": ""
   }
 ]
