@@ -8,7 +8,7 @@
       "<Point>: a vertex adjacent to the first picked point. "
     ],
     "output": "<Polygon Mesh>: a mesh with the selected facet removed. ",
-    "useCases": [
+    "commandUseCases": [
       "Sometimes a polygon mesh can afford to lose a few facets without negatively affecting the overall look of the CAD symbol. Reducing a mesh's facet count in this way can reduce the overall file size of the symbol. "
     ]
   },
@@ -21,7 +21,7 @@
       "<Polygon Mesh>: must be adjacent to the first one."
     ],
     "output": "<Polygon Mesh>: a combination of the original two input meshes.",
-    "useCases": [
+    "commandUseCases": [
       "Some products look more true-to-life if they are built with a single polygon mesh rather than multiple separate ones. For example, trim around a rectangular table is often best represented with a single mesh rather than being split into a separate mesh for each of the four sides. "
     ]
   },
@@ -40,7 +40,7 @@
       "<Point>: third vertex of the mesh #2 (must be adjacent to the second vertex, but not adjacent to the second so as to make an L-shape with the three picks)."
     ],
     "output": "<Polygon Mesh>: the combination of the two input meshes with a new edge joining the first mesh to the second.",
-    "useCases": [
+    "commandUseCases": [
       "Creating table tops: Bridge mesh lets you quickly create a flat table top by joining the first half of a table edge to its other half.",
       "Creating meshes that span long distances."
     ]

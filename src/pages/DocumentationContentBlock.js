@@ -20,13 +20,13 @@ const rows = data.map((item, i) => {
       <td key={uuid().toString()}>{item.shortcut}</td>
       <td key={uuid().toString()}>
         {item.inputs.map((input) => (
-          <div>{input}</div>
+          <div key={input}>{input}</div>
         ))}
       </td>
       <td key={uuid().toString()}>{item.output}</td>
       <td>
-        {item.useCases.map((useCase) => (
-          <div>{useCase}</div>
+        {item.commandUseCases.map((commandUseCase) => (
+          <div key={commandUseCase}>{commandUseCase}</div>
         ))}
       </td>
     </tr>
@@ -44,7 +44,7 @@ export default function DocumentationContentBlock() {
             <th className={styles.shortcut}>Shortcut</th>
             <th className={styles.input}>Input(s)</th>
             <th className={styles.output}>Output / Result</th>
-            <th className={styles.useCase}>Use Case(s)</th>
+            <th className={styles.commandUseCases}>Use Case(s)</th>
           </tr>
         </thead>
         <tbody>{rows}</tbody>

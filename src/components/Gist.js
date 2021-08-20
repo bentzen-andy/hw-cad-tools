@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 class Gist extends React.PureComponent {
   componentDidMount() {
@@ -43,6 +43,7 @@ class Gist extends React.PureComponent {
     const { id, file } = this.props;
 
     return (
+      // eslint-disable-next-line jsx-a11y/iframe-has-title
       <iframe
         ref={(n) => {
           this.iframeNode = n;

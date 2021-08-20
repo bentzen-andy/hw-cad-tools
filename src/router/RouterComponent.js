@@ -6,9 +6,9 @@ import DocumentationContentBlock from "../pages/DocumentationContentBlock";
 import Error404 from "../pages/Error404";
 import EmbeddedVideo from "../components/EmbeddedVideo";
 import videos from "../data/videos.json";
-import downloads from "../data/lisp-scripts.json";
+// import downloads from "../data/lisp-scripts.json";
 import SideNav from "../components/SideNav";
-import Gist from "../components/Gist";
+// import Gist from "../components/Gist";
 import TutorialSummary from "../components/TutorialSummary";
 import LoadingInstructions from "../components/LoadingInstructions";
 import ShortcutInstructions from "../components/ShortcutInstructions";
@@ -40,29 +40,29 @@ const tutorialRoutesList = videos.map((video) => (
   </Route>
 ));
 
-const downloadsRoutesList = downloads.map((download) => (
-  <Route
-    key={download.id}
-    path={`/hw-cad-tools/downloads/${titleToURL(download.title)}`}
-    exact
-  >
-    <div className="row">
-      <div className="column">
-        <SideNav sideNavTitle="Downloads" links={downloads} />
-      </div>
-      <div className="column">
-        <div className="row">
-          <a href={download.zipDownload}>
-            <button>Download Code</button>
-          </a>
-        </div>
-        <section className="gist">
-          <Gist id={download.id} iframeHeight="500" />
-        </section>
-      </div>
-    </div>
-  </Route>
-));
+// const downloadsRoutesList = downloads.map((download) => (
+//   <Route
+//     key={download.id}
+//     path={`/hw-cad-tools/downloads/${titleToURL(download.title)}`}
+//     exact
+//   >
+//     <div className="row">
+//       <div className="column">
+//         <SideNav sideNavTitle="Downloads" links={downloads} />
+//       </div>
+//       <div className="column">
+//         <div className="row">
+//           <a href={download.zipDownload}>
+//             <button>Download Code</button>
+//           </a>
+//         </div>
+//         <section className="gist">
+//           <Gist id={download.id} iframeHeight="500" />
+//         </section>
+//       </div>
+//     </div>
+//   </Route>
+// ));
 
 export default function RouterComponent() {
   return (
@@ -75,7 +75,7 @@ export default function RouterComponent() {
           <TutorialContentBlock />
         </Route>
         {tutorialRoutesList}
-        {downloadsRoutesList}
+        {/* {downloadsRoutesList} */}
         <Route path="/hw-cad-tools/downloads" exact>
           <DownloadsContentBlock />
         </Route>
