@@ -208,5 +208,203 @@
     ],
     "category": "Drafting Tutorials",
     "shortcut": ""
+  },
+  {
+    "id": "w4uE2ZPlqaU",
+    "title": "Copy, Move, and Mirror",
+    "summary": "Example of how to use the Copy, Move and Mirror commands (Native AutoCAD commands)",
+    "commandName": "",
+    "lspFileNames": [""],
+    "category": "Basic Settings / Workspace Commands",
+    "shortcut": ""
+  },
+  {
+    "id": "TpsknjnOo0g",
+    "title": "Move Command Filters",
+    "summary": "Example of how to use filters to lock the x, y, or z axes when moving an object.",
+    "commandName": "",
+    "lspFileNames": [""],
+    "category": "Basic Settings / Workspace Commands",
+    "shortcut": ""
+  },
+  {
+    "id": "mHk7GgGc51M",
+    "title": "HW Mid",
+    "summary": "Toggle the 'mid' object snap on and off.",
+    "commandName": "hwmid",
+    "lspFileNames": ["hwmid.lsp"],
+    "category": "Basic Settings / Workspace Commands",
+    "shortcut": "hwmid"
+  },
+  {
+    "id": "aW0f2tRTGxo",
+    "title": "Layer Control",
+    "summary": "A summary of commands that make it easier to control which layers are frozen and locked.",
+    "summaryListing": [
+      ["Shortcut", "Command Name", "Description"],
+      ["hwcolorpalette", "HW Color Palette", "Creates colorful temp layers."],
+      [
+        "laiso",
+        "Layer Isolate",
+        "Isolates the layers of selected objects (all unselected are frozen)."
+      ],
+      [
+        "laiso_lock",
+        "Layer Isolate - Lock",
+        "Isolates the layers of selected objects (all unselected are locked)."
+      ],
+      ["fz", "Freeze", "Freezes layer of selected object."],
+      ["laaa", "Layers - Show All", "Thaws, unlocks, and shows all layers."],
+      ["la", "Layer Options", "Brings up the Layer Property Manager."],
+      ["lc", "Layer Options - Close", "Closes the Layer Property Manager."],
+
+      [
+        "hwbl",
+        "HW Blue",
+        "Creates, thaws, unlocks, and sets current the _temp_blue layer."
+      ],
+      [
+        "hwgr",
+        "HW Green",
+        "Creates, thaws, unlocks, and sets current the _temp_green layer."
+      ],
+      [
+        "hwor",
+        "HW Orange",
+        "Creates, thaws, unlocks, and sets current the _temp_orange layer."
+      ],
+      [
+        "hwpu",
+        "HW Purple",
+        "Creates, thaws, unlocks, and sets current the _temp_purple layer."
+      ],
+      [
+        "hwre",
+        "HW Red",
+        "Creates, thaws, unlocks, and sets current the _temp_red layer."
+      ],
+      [
+        "hwsi",
+        "HW Silver",
+        "Creates, thaws, unlocks, and sets current the _temp_silver layer."
+      ],
+      [
+        "hwwh",
+        "HW White",
+        "Creates, thaws, unlocks, and sets current the _temp_white layer."
+      ],
+      [
+        "hwye",
+        "HW Yellow",
+        "Creates, thaws, unlocks, and sets current the _temp_yellow layer."
+      ],
+      [
+        "hwzz",
+        "Zero",
+        "Creates, thaws, unlocks, and sets current the 0 layer."
+      ],
+
+      [
+        "hwdb",
+        "HW Dark Blue",
+        "Creates, thaws, unlocks, and sets current the _temp_darkblue layer."
+      ],
+      [
+        "hwdg",
+        "HW Dark Green",
+        "Creates, thaws, unlocks, and sets current the _temp_darkgreen layer."
+      ],
+      [
+        "hwdo",
+        "HW Dark Orange",
+        "Creates, thaws, unlocks, and sets current the _temp_darkorange layer."
+      ],
+      [
+        "hwdp",
+        "HW Dark Purple",
+        "Creates, thaws, unlocks, and sets current the _temp_darkpurple layer."
+      ],
+      [
+        "hwdy",
+        "HW Dark Yellow",
+        "Creates, thaws, unlocks, and sets current the _temp_darkyellow layer."
+      ],
+
+      [
+        "hwchbl",
+        "HW Change Blue",
+        "Changes all objects in the current selection to be on the _temp_blue layer."
+      ],
+      [
+        "hwchgr",
+        "HW Change Green",
+        "Changes all objects in the current selection to be on the _temp_green layer."
+      ],
+      [
+        "hwchor",
+        "HW Change Orange",
+        "Changes all objects in the current selection to be on the _temp_orange layer."
+      ],
+      [
+        "hwchpu",
+        "HW Change Purple",
+        "Changes all objects in the current selection to be on the _temp_purple layer."
+      ],
+      [
+        "hwchre",
+        "HW Change Red",
+        "Changes all objects in the current selection to be on the _temp_red layer."
+      ],
+      [
+        "hwchsi",
+        "HW Change Silver",
+        "Changes all objects in the current selection to be on the _temp_silver layer."
+      ],
+      [
+        "hwchwh",
+        "HW Change White",
+        "Changes all objects in the current selection to be on the _temp_white layer."
+      ],
+      [
+        "hwchye",
+        "HW Change Yellow",
+        "Changes all objects in the current selection to be on the _temp_yellow layer."
+      ],
+      [
+        "hwchzz",
+        "Change Zero",
+        "Changes all objects in the current selection to be on the 0 layer."
+      ],
+
+      [
+        "hwchdb",
+        "HW Change Dark Blue",
+        "Changes all objects in the current selection to be on the _temp_darkblue layer."
+      ],
+      [
+        "hwchdg",
+        "HW Change Dark Green",
+        "Changes all objects in the current selection to be on the _temp_darkgreen layer."
+      ],
+      [
+        "hwchdo",
+        "HW Change Dark Orange",
+        "Changes all objects in the current selection to be on the _temp_darkorange layer."
+      ],
+      [
+        "hwchdp",
+        "HW Change Dark Purple",
+        "Changes all objects in the current selection to be on the _temp_darkpurple layer."
+      ],
+      [
+        "hwchdy",
+        "HW Change Dark Yellow",
+        "Changes all objects in the current selection to be on the _temp_darkyellow layer."
+      ]
+    ],
+    "commandName": "",
+    "lspFileNames": ["laiso.lsp", "hwyellow"],
+    "category": "Basic Settings / Workspace Commands",
+    "shortcut": ""
   }
 ]

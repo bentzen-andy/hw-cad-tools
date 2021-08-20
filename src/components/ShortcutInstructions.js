@@ -7,7 +7,7 @@ export default function ShortcutInstructions({ video }) {
     <div className={styles.commandShortcut}>
       <h3>Command Shortcut:</h3>
       <p>
-        If you'd like to set a shortcut for for command, add the following code
+        If you'd like to set a shortcut for this command, add the following code
         to your <code>_hwloadall.lsp</code> file (following the load statement):
       </p>
       <div className={styles.codeSnippet}>

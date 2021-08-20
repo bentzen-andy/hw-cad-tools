@@ -2,3 +2,7 @@
   text-align: left;
   padding-left: 1rem;
 }
+.videoSummary th,
+.videoSummary td {
+  padding: 0px 5px;
+}
