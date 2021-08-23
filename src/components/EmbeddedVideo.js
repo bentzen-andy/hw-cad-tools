@@ -15,6 +15,9 @@ const titleCase = (str) => {
 
 const isPreposition = (word) => {
   const prepositions = [
+    "the",
+    "and",
+    "but",
     "aboard",
     "about",
     "above",
@@ -94,7 +97,7 @@ const getVideoName = () => {
     // .slice(1)
     .join(" ");
   videoName = titleCase(videoName).replace(/3d/g, "3D");
-  videoName = videoName.replace(/hw/g, "HW");
+  videoName = videoName.replace(/hw /g, "HW ");
   return videoName;
 };
 

@@ -67,7 +67,7 @@
     "title": "HW Draw Splines",
     "summary": "Maps splines onto a collection of round or rectangular surface entities (like a lounge chair seat or sofa cushion).",
     "commandName": "hwdrawsplines",
-    "lspFileNames": ["hwsurfacttopolygonmesh_disc.lsp"],
+    "lspFileNames": ["hwsurfacetopolygonmesh_disc.lsp"],
     "category": "Construction Line Commands",
     "shortcut": ""
   },

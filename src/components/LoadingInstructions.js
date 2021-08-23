@@ -8,8 +8,9 @@ export default function LoadingInstructions({ video }) {
     <div className={styles.loadingInstructions}>
       <h3>Loading Instructions</h3>
       <p>
-        If you'd like to use this command, add the following code to your{" "}
-        <code>_hwloadall.lsp</code> file (excluding the <code>...</code>):
+        If you'd like to use the command(s) shown in this video, add the
+        following code to your <code>_hwloadall.lsp</code> file (excluding the
+        <code>...</code>):
       </p>
       <div className={styles.codeSnippet}>
         <div>
