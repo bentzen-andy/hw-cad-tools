@@ -67,7 +67,6 @@ const isPreposition = (word) => {
     "per",
     "plus",
     "regarding",
-    "round",
     "since",
     "than",
     "through",

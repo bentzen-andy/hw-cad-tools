@@ -7,12 +7,6 @@ export default function HomeContentBlock() {
     <div className={styles.homeContentBlock}>
       <h1>Getting Started</h1>
       <p>
-        Get started with HW CAD Tools by downloading the scripts and installing
-        the menu files found on the{" "}
-        <Link to="/hw-cad-tools/downloads">downloads page</Link>.
-      </p>
-      <h1>Tutorial Videos</h1>
-      <p>
         Check out the <Link to="/hw-cad-tools/tutorials">tutorial videos</Link>{" "}
         for step-by-step instructions for each custom command.
       </p>
