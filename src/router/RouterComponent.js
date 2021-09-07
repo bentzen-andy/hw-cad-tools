@@ -16,11 +16,7 @@ import ShortcutInstructions from "../components/ShortcutInstructions";
 const titleToURL = (title) => title.toLowerCase().replace(/ /g, "-");
 
 const tutorialRoutesList = videos.map((video) => (
-  <Route
-    key={video.id}
-    path={`/hw-cad-tools/tutorials/${titleToURL(video.title)}`}
-    exact
-  >
+  <Route key={video.id} path={`/tutorials/${titleToURL(video.title)}`} exact>
     <div className="row">
       <div className="column">
         <SideNav sideNavTitle="Tutorials" links={videos} />
@@ -43,7 +39,7 @@ const tutorialRoutesList = videos.map((video) => (
 // const downloadsRoutesList = downloads.map((download) => (
 //   <Route
 //     key={download.id}
-//     path={`/hw-cad-tools/downloads/${titleToURL(download.title)}`}
+//     path={`/downloads/${titleToURL(download.title)}`}
 //     exact
 //   >
 //     <div className="row">
@@ -68,18 +64,18 @@ export default function RouterComponent() {
   return (
     <>
       <Switch>
-        <Route path="/hw-cad-tools/" exact>
+        <Route path="/" exact>
           <HomeContentBlock />
         </Route>
-        <Route path="/hw-cad-tools/tutorials" exact>
+        <Route path="/tutorials" exact>
           <TutorialContentBlock />
         </Route>
         {tutorialRoutesList}
         {/* {downloadsRoutesList} */}
-        <Route path="/hw-cad-tools/downloads" exact>
+        <Route path="/downloads" exact>
           <DownloadsContentBlock />
         </Route>
-        <Route path="/hw-cad-tools/docs" exact>
+        <Route path="/docs" exact>
           <DocumentationContentBlock />
         </Route>
         <Route path="*">

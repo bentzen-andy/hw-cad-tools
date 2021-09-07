@@ -18,6 +18,15 @@
     "shortcut": "sd"
   },
   {
+    "id": "_q-56ElfKNU",
+    "title": "HW 3D Face Spiderweb - 3-Point",
+    "summary": "Draws a flat grouping of three-sided 3D faces by an anchor point and three points on the adjacent mesh.",
+    "commandName": "hw3dface_spiderweb_3p",
+    "lspFileNames": ["hw3dface_spiderweb_3p.lsp", "hwcutmesh.lsp"],
+    "category": "3D Face Commands",
+    "shortcut": "sd3"
+  },
+  {
     "id": "wrBFOnU1tik",
     "title": "HW Add Nodes",
     "summary": "(For use only in matrix files) Adds middle and exterior nodes on every CAD symbol in a matrix file.",

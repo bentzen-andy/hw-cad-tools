@@ -41,9 +41,7 @@ export default function SideNav({ sideNavTitle, links }) {
             )}
             <Link
               className={styles.link}
-              to={`/hw-cad-tools/${sideNavTitle.toLowerCase()}/${titleToURL(
-                link.title
-              )}`}
+              to={`/${sideNavTitle.toLowerCase()}/${titleToURL(link.title)}`}
             >
               {link.title}
             </Link>

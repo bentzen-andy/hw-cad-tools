@@ -31,7 +31,7 @@ export default function LoadingInstructions({ video }) {
       </div>
       <p>
         Or see the{" "}
-        <Link to="/hw-cad-tools/tutorials/setting-up-your-_hwloadall-file">
+        <Link to="/tutorials/setting-up-your-_hwloadall-file">
           instructions
         </Link>{" "}
         for setting up your <code>_hwloadall.lsp</code> file.
