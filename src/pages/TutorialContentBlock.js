@@ -17,7 +17,7 @@ import SideNav from "../components/SideNav";
 export default function TutorialContentBlock() {
   return (
     <div className={styles.tutorialContentBlock}>
-      <div className="row">
+      <div style={{ display: "flex", flexDirection: "row" }}>
         <div className="column">
           <SideNav sideNavTitle="Tutorials" links={videos} />
         </div>

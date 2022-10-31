@@ -1,6 +1,6 @@
-/* .App { */
-/* text-align: center; */
-/* } */
+/* .App {
+  height: 100vh;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -22,10 +22,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.row {
-  display: flex;
 }
 
 .App-link {

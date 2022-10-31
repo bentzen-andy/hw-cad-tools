@@ -1,0 +1,28 @@
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.radio-btn {
+  /* margin-right: 2rem; */
+  width: 8rem;
+}
+
+input[type="radio"] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+input[type="checkbox"] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.catalog-number {
+  margin: 0;
+}
+
+tr:nth-child(even) {
+  background: #00a2e133;
+}

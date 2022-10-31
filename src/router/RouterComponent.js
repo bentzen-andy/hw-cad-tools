@@ -3,6 +3,7 @@ import HomeContentBlock from "../pages/HomeContentBlock";
 import TutorialContentBlock from "../pages/TutorialContentBlock";
 import DownloadsContentBlock from "../pages/DownloadsContentBlock";
 import DocumentationContentBlock from "../pages/DocumentationContentBlock";
+import CatalogSorter from "../pages/CatalogSorter";
 import Error404 from "../pages/Error404";
 import EmbeddedVideo from "../components/EmbeddedVideo";
 import videos from "../data/videos.json";
@@ -17,7 +18,7 @@ const titleToURL = (title) => title.toLowerCase().replace(/ /g, "-");
 
 const tutorialRoutesList = videos.map((video) => (
   <Route key={video.id} path={`/tutorials/${titleToURL(video.title)}`} exact>
-    <div className="row">
+    <div style={{ display: "flex", flexDirection: "row" }}>
       <div className="column">
         <SideNav sideNavTitle="Tutorials" links={videos} />
       </div>
@@ -77,6 +78,9 @@ export default function RouterComponent() {
         </Route>
         <Route path="/docs" exact>
           <DocumentationContentBlock />
+        </Route>
+        <Route path="/catalog-sorter" exact>
+          <CatalogSorter />
         </Route>
         <Route path="*">
           <Error404 />

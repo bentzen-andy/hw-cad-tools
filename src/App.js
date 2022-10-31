@@ -1,15 +1,15 @@
 import "./App.css";
 import "@fontsource/roboto";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import RouterComponent from "./router/RouterComponent";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <RouterComponent />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
